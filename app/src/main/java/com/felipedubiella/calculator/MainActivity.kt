@@ -79,6 +79,7 @@ class MainActivity : AppCompatActivity() {
                     tvResult.text = "Invalid Expression"
                 }else{
                     tvResult.text = resultCalc.toString()
+                    tvCalc.text = resultCalc.toString()
                 }
             }
             clear.setOnClickListener {
